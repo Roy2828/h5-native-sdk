@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="permission_application_tips">为了给您提供更好的服务，竹芒合伙人将向您申请以下权限和信息，系统将以弹窗提示征求您的授权 \n %1$s: %2$s</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="error_common">视频大小不能超过 %1$sM</string>
+    <string name="error_gif_common">不支持的文件类型</string>
+    <string name="error_gif">长宽不小于 %1$dpx，且大小不超过 %2$sM</string>
+</resources>

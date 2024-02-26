@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blackFF_EF">#FFEFEFEF</color>
+    <color name="transparent">#00000000</color>
+    <color name="color_646566">#646566</color>
+    <color name="color_4583FE">#0057FF</color><!--主题色-->
+    <color name="blackFF_EE">#FFEEEEEE</color>
+    <color name="color_85000000">#85000000</color>
+    <color name="lineColor">#F2F2F2</color>
+</resources>

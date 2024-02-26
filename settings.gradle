@@ -1,0 +1,3 @@
+rootProject.name = "h5NativeProject"
+include ':app'
+include ':h5Native'

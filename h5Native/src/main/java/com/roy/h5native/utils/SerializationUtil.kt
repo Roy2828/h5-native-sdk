@@ -1,10 +1,8 @@
 package com.roy.h5native.utils
 
-import android.os.Bundle
+
 import android.os.Parcelable
-import com.vondear.rxtool.RxEncodeTool
 import java.io.*
-import java.util.*
 import kotlin.collections.ArrayList
 
 /**

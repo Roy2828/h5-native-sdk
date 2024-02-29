@@ -45,18 +45,9 @@ object SerializationUtil {
     }
 
 
-    fun <T : Parcelable> washParcelObject(washParcel: T): T? {
+    fun <T : Parcelable> washParcelObject(washParcel: T, creator: Parcelable.Creator<T>): T? {
         try {
-            return readObject(getByteArrayInputStream(washParcel))
-        } catch (e: Exception) {
-            return null
-        }
-    }
-
-
-    fun <T : Parcelable> washListParcelObject(washListParcel: ArrayList<T>): ArrayList<T>? {
-        try {
-            return readObjectList(getByteArrayInputStream(washListParcel))
+            return ParcelUtils.deserializeParcelable(ParcelUtils.serializeParcelable(washParcel), creator)
         } catch (e: Exception) {
             return null
         }
